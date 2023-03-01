@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Valorax";
+  src: local("Valorax-lg25V"),
+    url("./fonts/Valorax-lg25V.otf") format("opentype");
+}
