@@ -1,4 +1,4 @@
-import CountDown from './components/CountDown';
+import CountDown from './components/Countdown';
 import Particles from './components/Particles';
 
 function App() {
