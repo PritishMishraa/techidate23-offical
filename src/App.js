@@ -1,13 +1,13 @@
-import Countdown from './components/Countdown';
+import CountDown from './components/CountDown';
 import Particles from './components/Particles';
 
 function App() {
   return (
-    <div className='flex flex-col h-screen justify-center items-center'>
-      <h1 className="text-white font-valorax text-9xl">
+    <div className='flex flex-col items-center justify-center h-screen'>
+      <h1 className="text-2xl text-white font-valorax md:text-9xl">
         TECHIDEATE
       </h1>
-      <Countdown />
+      <CountDown />
       <Particles id="tsparticles" />
     </div>
   );

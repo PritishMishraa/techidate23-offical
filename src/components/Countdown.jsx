@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Countdown } from 'react-daisyui';
 
-const Countdown = () => {
+const CountDown = () => {
     const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
     useEffect(() => {
@@ -55,4 +55,4 @@ const Countdown = () => {
         </div>
     )
 }
-export default Countdown
+export default CountDown
